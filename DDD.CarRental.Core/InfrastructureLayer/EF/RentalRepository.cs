@@ -5,8 +5,8 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF
 {
     public class RentalRepository : Repository<Rental>, IRentalRepository
     {
-        public RentalRepository(CarRentalDbContext context)
-            : base(context)
-        { }
+        public RentalRepository(CarRentalDbContext context) : base(context) { }
+
+        // dodatkowe metody np. GetByDriverId można dodać później
     }
 }

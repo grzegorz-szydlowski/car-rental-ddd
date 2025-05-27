@@ -8,5 +8,8 @@ namespace DDD.CarRental.Core.DomainModelLayer.Interfaces
         ICarRepository CarRepository { get; }
         IDriverRepository DriverRepository { get; }
         IRentalRepository RentalRepository { get; }
+        IMaintenanceRepository MaintenanceRepository { get; }
+
+
     }
 }

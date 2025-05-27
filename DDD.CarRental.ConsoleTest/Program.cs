@@ -28,6 +28,7 @@ namespace DDD.CarRental.ConsoleTest
             // intializing and registering CarRentalDbContext
             var context = TestUtils.InitializeCarRentalContext();
             serviceCollection.AddSingleton(context);
+            serviceCollection.AddSingleton<IMaintenanceRepository, MaintenanceRepository>();
 
             // registering command and query handlers
             serviceCollection.AddSingleton<CommandHandler>();
@@ -43,7 +44,7 @@ namespace DDD.CarRental.ConsoleTest
             serviceCollection.AddSingleton<IRentalRepository, RentalRepository>();
             
             // registering domain model services, factories
-            serviceCollection.AddSingleton<Mapper>();
+            //serviceCollection.AddSingleton<Mapper>();
 
             // ToDo: Zarejestruj pozostałe usługi, fabryki, polityki, itp.
         }

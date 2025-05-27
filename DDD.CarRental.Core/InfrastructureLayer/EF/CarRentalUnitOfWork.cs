@@ -13,21 +13,23 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF
         public ICarRepository CarRepository { get; protected set; }
         public IDriverRepository DriverRepository { get; protected set; }
         public IRentalRepository RentalRepository { get; protected set; }
-        
 
+        public IMaintenanceRepository MaintenanceRepository { get; protected set; }
 
         public CarRentalUnitOfWork(
             CarRentalDbContext context,
             IDomainEventPublisher eventPublisher,
             ICarRepository carRepository,
             IDriverRepository driverRepository,
-            IRentalRepository rentalRepository)
+            IRentalRepository rentalRepository,
+            IMaintenanceRepository maintenanceRepository)
         {
             _dbContext = context;
             _eventPublisher = eventPublisher;
             CarRepository = carRepository;
             DriverRepository = driverRepository;
             RentalRepository = rentalRepository;
+            MaintenanceRepository = maintenanceRepository;
         }
 
         public void Commit()

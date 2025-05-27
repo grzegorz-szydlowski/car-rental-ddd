@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj": {}
+    "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj": {}
   },
   "projects": {
-    "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj": {
+    "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj",
         "projectName": "DDD.CarRental.Core",
-        "projectPath": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj",
-        "packagesPath": "C:\\Users\\stani\\.nuget\\packages\\",
-        "outputPath": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.CarRental.Core\\obj\\",
+        "projectPath": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.CarRental.Core\\DDD.CarRental.Core.csproj",
+        "packagesPath": "C:\\Users\\Laura Morawska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.CarRental.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laura Morawska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.SharedKernel\\DDD.SharedKernel.csproj": {
-                "projectPath": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.SharedKernel\\DDD.SharedKernel.csproj"
+              "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.SharedKernel\\DDD.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.SharedKernel\\DDD.SharedKernel.csproj"
               }
             }
           }
@@ -63,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.SharedKernel\\DDD.SharedKernel.csproj": {
+    "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.SharedKernel\\DDD.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
         "projectName": "DDD.SharedKernel",
-        "projectPath": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
-        "packagesPath": "C:\\Users\\stani\\.nuget\\packages\\",
-        "outputPath": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.SharedKernel\\obj\\",
+        "projectPath": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\Laura Morawska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\stani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laura Morawska\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,7 +124,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -132,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

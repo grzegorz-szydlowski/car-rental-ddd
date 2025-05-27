@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3Xwy5DCJIB+bL2JFQpBtfyrqSGIdPNAn24YHSWj73XvCU475ty04WBWOshGFfQ+9uS/DizkUXZ0wY5++12ENyQ==",
+  "dgSpecHash": "AmHfdFsvWtK68c0s/DPBSH5wFuecSQjZzrb5T0O8U0nUr8+vcYfMnz0qLBAUVbhqpKA7t9EnSWZR1IhHjzbcDw==",
   "success": true,
-  "projectFilePath": "C:\\OneDrive\\Personal\\OneDrive\\Student\\Wzorce projektowe\\Lab\\Lab5\\DDD.CarRental-Student_Net60\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
+  "projectFilePath": "C:\\Users\\Laura Morawska\\Desktop\\car-rental-ddd\\DDD.SharedKernel\\DDD.SharedKernel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\stani\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
-    "C:\\Users\\stani\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    "C:\\Users\\Laura Morawska\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\Laura Morawska\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

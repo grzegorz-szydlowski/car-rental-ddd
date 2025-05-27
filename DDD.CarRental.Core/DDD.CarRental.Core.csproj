@@ -12,11 +12,9 @@
 
   <ItemGroup>
     <Folder Include="ApplicationLayer\DomainEventHandlers\" />
-    <Folder Include="ApplicationLayer\DTOs\" />
     <Folder Include="DomainModelLayer\Events\" />
-    <Folder Include="DomainModelLayer\Factories\" />
-    <Folder Include="DomainModelLayer\Services\" />
     <Folder Include="DomainModelLayer\Policies\" />
+    <Folder Include="DomainModelLayer\Services\" />
   </ItemGroup>
 
   <ItemGroup>

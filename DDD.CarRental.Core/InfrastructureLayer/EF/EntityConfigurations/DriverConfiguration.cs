@@ -21,6 +21,20 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF.EntityConfigurations
             driverConfiguration.Ignore(c => c.DomainEvents);
 
             // ToDo: konfiguracja pozostalych elementów
+            driverConfiguration.Property(c => c.FirstName)
+        .IsRequired()
+        .HasMaxLength(100);
+
+            driverConfiguration.Property(c => c.LastName)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            driverConfiguration.Property(c => c.LicenceNumber)
+                .IsRequired()
+                .HasMaxLength(20);
+
+            driverConfiguration.Property(c => c.FreeMinutes)
+                .IsRequired();
         }
     }
 
