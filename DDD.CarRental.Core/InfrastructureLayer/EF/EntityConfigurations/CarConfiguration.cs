@@ -19,18 +19,15 @@ namespace DDD.CarRental.Core.InfrastructureLayer.EF
             builder.Property(c => c.Status)
                 .IsRequired();
 
-            // 👇 To rozwiązuje Twój problem
-            builder.OwnsOne(c => c.CurrentDistance, cb =>
-            {
-                cb.Property(d => d.Value).HasColumnName("CurrentDistance_Value");
-                cb.Property(d => d.Unit).HasColumnName("CurrentDistance_Unit");
-            });
+            builder.HasOne(typeof(Distance), "CurrentDistance")
+                .WithMany()
+                .HasForeignKey("CurrentDistance_CarId")
+                .OnDelete(DeleteBehavior.Cascade);
 
-            builder.OwnsOne(c => c.TotalDistance, cb =>
-            {
-                cb.Property(d => d.Value).HasColumnName("TotalDistance_Value");
-                cb.Property(d => d.Unit).HasColumnName("TotalDistance_Unit");
-            });
+            builder.HasOne(typeof(Distance), "TotalDistance")
+                .WithMany()
+                .HasForeignKey("TotalDistance_CarId")
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.OwnsOne(c => c.CurrentPosition, cb =>
             {

@@ -1,6 +1,7 @@
 ﻿using DDD.SharedKernel.DomainModelLayer.Implementations;
 using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace DDD.CarRental.Core.DomainModelLayer.Models
 {

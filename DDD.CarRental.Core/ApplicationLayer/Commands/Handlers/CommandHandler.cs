@@ -9,10 +9,12 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands.Handlers
     public class CommandHandler
     {
         private readonly ICarRentalUnitOfWork _unitOfWork;
+        IPositionService _positionService;
 
-        public CommandHandler(ICarRentalUnitOfWork unitOfWork)
+        public CommandHandler(ICarRentalUnitOfWork unitOfWork, IPositionService positionService)
         {
             _unitOfWork = unitOfWork;
+            _positionService = positionService;
         }
 
         public void Execute(CreateCarCommand command)
@@ -75,7 +77,7 @@ namespace DDD.CarRental.Core.ApplicationLayer.Commands.Handlers
             var driver = _unitOfWork.DriverRepository.Get(rental.DriverId)
                 ?? throw new KeyNotFoundException($"Driver {rental.DriverId} not found.");
 
-            var newPosition = new Position(command.PositionX, command.PositionY, command.PositionUnit);
+            var newPosition = _positionService.GenerateRandomPosition();
 
             car.UpdatePosition(newPosition);
 

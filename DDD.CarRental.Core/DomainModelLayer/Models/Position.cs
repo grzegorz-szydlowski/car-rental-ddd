@@ -1,9 +1,11 @@
 ﻿using DDD.SharedKernel.DomainModelLayer.Implementations;
 using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace DDD.CarRental.Core.DomainModelLayer.Models
 {
+    [Owned]
     public class Position : ValueObject
     {
         public double X { get; protected set; }

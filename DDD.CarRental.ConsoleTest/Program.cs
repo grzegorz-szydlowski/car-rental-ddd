@@ -7,6 +7,7 @@ using DDD.SharedKernel.DomainModelLayer;
 using DDD.SharedKernel.InfrastructureLayer.Implementations;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using DDD.CarRental.Core.DomainModelLayer.Services;
 
 namespace DDD.CarRental.ConsoleTest
 {
@@ -29,6 +30,8 @@ namespace DDD.CarRental.ConsoleTest
             var context = TestUtils.InitializeCarRentalContext();
             serviceCollection.AddSingleton(context);
             serviceCollection.AddSingleton<IMaintenanceRepository, MaintenanceRepository>();
+
+            serviceCollection.AddSingleton<IPositionService, PositionService>();
 
             // registering command and query handlers
             serviceCollection.AddSingleton<CommandHandler>();
